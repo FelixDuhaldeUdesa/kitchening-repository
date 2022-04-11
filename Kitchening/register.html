@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="myBody">
+    <header>
+        <nav class="hijoHeader navPadre">
+            <a class="logreg" href="index.html">Home</a>
+            <a class="logreg" href="login.html">Login</a>
+        </nav>
+
+        <div class="hijoHeader logreglogo">
+            <img src="./img/logo.jpg" alt="logo" class="extralogreglogo">
+        </div>
+    </header>
+
+    <main>
+        <form action="search.html" method="get" class="formRegister">
+            <div>
+                <label for="text">Nombre:</label>
+                <input type="text" placeholder="Tu nombre">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" placeholder="Tu e-mail">
+            </div>
+            <div>
+                <label for="password">Contraseña:</label>
+                <input type="password" placeholder="Tu contraseña">
+            </div>
+            <div>
+                <br>
+                <label for="nacionalidad">Nacionalidad:</label>
+                <select name="país" id="nacionalidad">
+                    <option value="Ar">Argentina</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Cl">Chile</option>
+                    <option value="Co">Colombia</option>
+                    <option value="Ve">Venezuela</option>
+                </select>
+            </div>
+            <div>
+                <p class="preg">Género:</p>
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="género" id="femenino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="género" id="masculino">
+                <label for="otro">Otro</label>
+                <input type="radio" name="género" id="otro">
+                
+            </div>
+            <div>
+                <p class="preg">Hobbies:</p>
+                <label for="checkbox">Salir con amigos</label>
+                <input type="checkbox">
+                <div>
+                    <label for="checkbox">Jugar videojuegos</label>
+                <input type="checkbox">
+                </div>
+                <div>
+                   <label for="checkbox">Dibujar/pintar</label>
+                <input type="checkbox"> 
+                </div>
+                <div>
+                  <label for="checkbox">Mirar películas o series</label>
+                <input type="checkbox">  
+                </div>
+                <div>
+                   <label for="checkbox">Hacer deportes</label>
+                <input type="checkbox"> 
+                </div>
+                
+            </div>
+            <div>
+                <p class="preg">Contanos sobre vos</p>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="checkbox">Aceptar términos y condiciones</label>
+                <input type="checkbox" name="TOS">
+            </div>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+        </form>
+    </main>
+    
+</body>
+</html>

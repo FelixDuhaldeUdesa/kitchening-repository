@@ -1,0 +1,129 @@
+.navPadre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logreglogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0 0 50px 0;
+}
+
+.extralogo {
+    border-radius: 50%;
+    width: 180px;
+}
+
+.extralogreglogo {
+    border-radius: 50%;
+    width: 15vh;
+}
+
+.logreg {
+    margin: 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 1%;
+}
+
+.myBody {
+    background-image: url("../img/bg-body.png");
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.navOption {
+    background-color: #444;
+    width: 150px;
+    
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.imgBanner {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 380px;
+    max-width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgArticle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vermas {
+    background-color: rgb(53, 53, 53);
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+.sectionArticles {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    
+    flex-wrap: wrap;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200,0,0);
+    color: white;
+    margin: 30px 0 0 0;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    flex-wrap: wrap;
+}
+
+.text {
+    color:#666;
+}
+
+p.preg {
+    margin-bottom: 0%;
+}
